@@ -17,3 +17,4 @@ for i in bases:
 for codon, count in codon_counts.items():
     if count:
         print(f"{codon}: {count}")
+move codon_position.py into sequence_analysis/
