@@ -1,4 +1,4 @@
-#check if a sequence is palindrom or not:
+#check if a sequence is palindrome or not:
 def ispalindrom(mystr, s, e):
     if s >= e:
         return True
