@@ -35,6 +35,7 @@ if out_format not in OUTPUT_FORMATS:
     raise SystemExit(1)
 
 outfile = input("Enter your output path: ").strip()
+.
 
 records = SeqIO.parse(infile, in_format)
 count = SeqIO.write(records, outfile, out_format)
