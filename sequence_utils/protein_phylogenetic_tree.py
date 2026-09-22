@@ -45,7 +45,7 @@ def main():
     names = [rec.id for rec in alignment]
     data = [[dm[i, j] for j in range(len(names))] for i in range(len(names))]
     df = pd.DataFrame(data, index=names, columns=names)
-    print(df)
+    
 
     #5. UPGMA tree 
     matrix = df.values.tolist()
