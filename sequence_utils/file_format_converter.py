@@ -31,7 +31,7 @@ print(f"Detected input format: {in_format}")
 
 out_format = input(f"Enter output format {OUTPUT_FORMATS}: ").strip().lower()
 if out_format not in OUTPUT_FORMATS:
-    print(f"❌ Unsupported format: {out_format}")
+    print(f"Unsupported format: {out_format}")
     raise SystemExit(1)
 
 outfile = input("Enter your output path: ").strip()
