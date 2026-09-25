@@ -14,7 +14,7 @@ bioinformatics-toolkit/
 │
 ├── sequence_utils/
 │   ├── __init__.py
-│   └── translate.py       # 6-frame DNA translation utility
+│   └── translate.py      
 │
 ├── .gitignore
 ├── requirements.txt
